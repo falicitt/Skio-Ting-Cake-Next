@@ -1,0 +1,124 @@
+
+/*hero style*/
+.Hero {
+  padding-top: 5vh;
+  padding-bottom: 37vh;
+  background: url(https://ucarecdn.com/9e40c777-7a0b-4feb-8b3b-f0a787a85fe2/);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__Text {
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: white;
+}
+
+.hero__H1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2.5rem;
+  padding: 1rem 1rem 0 1rem;
+  
+}
+
+.hero__P {
+  font-size: 1.2rem;
+  padding-top: 0;
+}
+
+.check {
+  font-size: 1rem;
+  font-family: 'Playfair Display SC', serif;
+  padding: 1rem;
+}
+
+/*product section style*/
+.product__Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product__Col {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.product__ColImg {
+  
+  padding: .5rem;
+  max-width: 360px;
+
+}
+
+.all__Cakes {
+  padding: 2rem 0;
+}
+
+/*about styles*/
+
+.about {
+  padding: 5rem;
+  background-color: #f7f8fa;
+  align-items: center;  
+}
+
+.learn__More {
+  font-family: 'Playfair Display', serif;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 560px) {
+  .about__Container {
+    padding-right: 3rem;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .Hero {
+    padding-top: 8vh;
+  padding-bottom: 32vh;
+  }
+
+  .hero__H1 {
+    font-size: 3.5rem;
+  }
+
+  .hero__P {
+    font-size: 1.4rem;
+  }
+
+  .check {
+    font-size: 1.4rem;
+  }
+
+  .product__ColImg {
+    max-width: 380px;
+  }
+
+  .about {
+    display: flex;
+  }
+
+  .about__Container {
+    padding-left: 0;
+  }
+  
+  .about__Image {
+    width: 100rem;  
+  }
+  
+}
+
+@media screen and (min-width: 893px) {
+  .product__ColImg {
+    max-width: 430px;
+  }
+}
+
+
+

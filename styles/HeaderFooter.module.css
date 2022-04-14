@@ -1,0 +1,145 @@
+.Nav {
+  font-size: .9rem;
+  position:sticky;
+  top: 2px;
+  padding: 1px;
+  background-color: white;
+  
+}
+
+.Nav__Desktop {
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-right: 10rem;
+}
+
+.Nav__Icon {
+  display: none;
+}
+
+.Nav__Close {
+  display: none;
+}
+
+.Title__Mobile {
+  display: none;
+}
+
+.Title {
+  font-weight:600;
+  font-size: 1.4rem;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.cart {
+  position: absolute;
+  top: 27px;
+  right: 80px;
+}
+
+.auth {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+}
+
+.auth img {
+  max-width: 25px;
+}
+
+.Footer {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #f9f4ec;
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: sticky;
+    
+    bottom: 0;
+   
+  }
+
+
+.socialmedia {
+  background-color: #f9f4ec;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 0;
+}
+
+.socialmedia li {
+  padding: 1rem;
+}
+
+.CopyRight {
+  font-size: 0.8rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+@media (max-width: 650px) {
+
+  .Nav__Desktop {
+    display: none;
+  }
+
+  .Nav__Mobile {
+    justify-content: flex-start;
+  }
+
+  .Title__Mobile {
+    display: flex;
+    font-weight:600;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+  }
+  
+  .Nav__Icon {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .Nav__Close {
+    display: none;
+  }
+
+  .Nav__Open {
+    display: block;
+    text-align: center;
+  }
+
+  .Nav__Open li {
+    padding-bottom: 1rem;
+    font-size: .8rem;
+  }
+
+  .Nav__Open li :hover {
+    font-size: .9rem;
+  }
+
+  .cart {
+    top: 14px;
+    right: 60px;
+
+  }
+
+  .auth {
+    top: 14px;
+    right: 10px;
+  }
+
+  .CopyRight {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
