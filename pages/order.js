@@ -1,8 +1,22 @@
 import styles from '../styles/Checkout.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import { useSelector } from 'react-redux'
 
-export default function Shipping() {
+export default function Order() {
+  //function to clear shopping cart
+  const router = useRouter()
+  const cart = useSelector((state) => state.cart)
+
+  useEffect(() => {
+    //
+    if (cart.length != 0) {
+      router.reload()
+    }
+  })
+
   return (
     <div className={styles.order}>
       <p className={styles.steps}>

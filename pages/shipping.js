@@ -1,10 +1,16 @@
-import { signIn, useSession, getSession } from 'next-auth/react'
+import { useSession, getSession } from 'next-auth/react'
 import Product_checkout from '../components/Product_checkout'
 import styles from '../styles/Checkout.module.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function Shipping() {
   const { data: session } = useSession()
+  const router = useRouter()
+
+  const submitOrder = (e) => {
+    router.push('/order')
+  }
 
   if (typeof window === 'undefined') return null
 
@@ -17,7 +23,11 @@ export default function Shipping() {
             Cart > <b>Detail</b> > Order
           </p>
 
-          <form className={styles.shipping__Form}>
+          <form
+            className={styles.shipping__Form}
+            onSubmit={submitOrder}
+            action={'/order'}
+          >
             <div>
               <label className={styles.contact}>Contact</label>
               <input
@@ -51,9 +61,11 @@ export default function Shipping() {
             </div>
             <div>Cash</div>
           </div>
-          <Link href="/order" passHref>
-            <button className={styles.pay__Button}>Place Order</button>
-          </Link>
+
+          <button className={styles.pay__Button} onClick={submitOrder}>
+            Place Order
+          </button>
+
           <p>
             <Link href="/cart">
               <a>Back to Cart</a>

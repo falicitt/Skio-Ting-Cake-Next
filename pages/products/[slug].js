@@ -57,6 +57,7 @@ export default function Product({ product }) {
               src={fromImageToUrl(
                 product.data.attributes.image.data.attributes
               )}
+              alt="product image"
             />
           </div>
 

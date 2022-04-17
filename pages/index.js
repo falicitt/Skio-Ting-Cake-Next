@@ -24,8 +24,12 @@ export default function Home({ products }) {
       <Head>
         <title>Skio Ting Cake Shop</title>
         <meta
+          name="title"
+          content="Skio Ting Cake: Homemade Fresh Cream Cake."
+        />
+        <meta
           name="description"
-          content="Skio Ting Homemade Fresh Cream Cake & Fondant Cake"
+          content="Fresh cream cake made by Skio Ting, a passionate food lover, baker and artist. Our most popular cakes include durian cake, macha cake, strawberry cake, etc."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

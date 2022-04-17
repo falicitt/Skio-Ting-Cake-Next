@@ -12,7 +12,9 @@ export default function Footer() {
         <li>
           <Link href="/contact">CONTACT > </Link>
         </li>
-        <li>ABOUT > </li>
+        <li>
+          <Link href="/about">ABOUT > </Link>
+        </li>
       </ul>
       <Script
         src="https://kit.fontawesome.com/64beb3d505.js"
