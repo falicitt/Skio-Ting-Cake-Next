@@ -50,13 +50,12 @@
 
 .Footer {
     padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     background-color: #f9f4ec;
     font-size: 0.9rem;
     margin-top: 0;
     margin-bottom: 0;
     position: sticky;
-    
     bottom: 0;
    
   }

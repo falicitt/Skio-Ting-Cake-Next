@@ -78,9 +78,11 @@ export default function Shipping() {
   return (
     <div className={styles.signin}>
       <p>Please sign in to make purchase.</p>
-      <Link href="/signin" passHref>
-        <a>Go to sign in page</a>
-      </Link>
+      <div className={styles.signin__Link}>
+        <Link href="/signin" passHref>
+          <a>Go to sign in page</a>
+        </Link>
+      </div>
     </div>
   )
 }
