@@ -10,7 +10,7 @@ export default function Userhelp() {
         additional cost for shipping.
       </p>
 
-      <h2>What happens if I can't pick up my order?</h2>
+      <h2>What happens if I can&apos;t pick up my order?</h2>
       <p>
         All orders need to be picked up on the requested date to ensure
         freshness and quality of your product.
@@ -26,7 +26,7 @@ export default function Userhelp() {
       </p>
 
       <h2>Can I cancel my order?</h2>
-      <p>48 hours' notice must be given when cancelling a cake.</p>
+      <p>48 hours&apos; notice must be given when cancelling a cake.</p>
       <p>
         Any order cancelled on the day of pick up or outside of the above stated
         times, will not be refunded, replaced, or postponed.
@@ -38,14 +38,14 @@ export default function Userhelp() {
 
       <h2>Can I make a return and get a refund?</h2>
       <p>
-        If you’re not entirely satisfied with your order, we’re here to help.
-        You must contact us within 24 hours of picking up your item, in order to
-        be eligible for a refund or replacement, due to the nature of our
-        products. We will review your request and communicate with you regarding
-        the outcome. The outcome will determine if a refund should be in place.
-        Refunds can also be convertible to online points (website account)
-        reflecting the same value of purchase. Refunds may take up to 10 working
-        days to process.
+        If you&apos;re not entirely satisfied with your order, we&apos;re here
+        to help. You must contact us within 24 hours of picking up your item, in
+        order to be eligible for a refund or replacement, due to the nature of
+        our products. We will review your request and communicate with you
+        regarding the outcome. The outcome will determine if a refund should be
+        in place. Refunds can also be convertible to online points (website
+        account) reflecting the same value of purchase. Refunds may take up to
+        10 working days to process.
       </p>
       <p>Please be aware of the following clauses before contacting us:</p>
       <ol>

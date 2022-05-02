@@ -37,10 +37,10 @@ export default function Home({ products }) {
       <div className={styles.Hero}>
         <div className={styles.hero__Text}>
           <h1 className={styles.hero__H1}>Skio Ting Cake</h1>
-          <p className={styles.hero__P}>let's celebrate every occasion</p>
+          <p className={styles.hero__P}>let&apos;s celebrate every occasion</p>
           <Link href="/products">
             <a>
-              <p className={styles.check}>check it out ></p>
+              <p className={styles.check}>check it out &gt;</p>
             </a>
           </Link>
         </div>
@@ -75,14 +75,14 @@ export default function Home({ products }) {
         <div className={styles.about__Container}>
           <h3 className={styles.about__Text}>About Skio Ting</h3>
           <p>
-            At the intersection of food science and art, lies Skio Ting’s unique
-            patisserie. Finding notes of flavour and composing with healthy
-            inovative ingredients, this is where Skio Ting enables the local
-            community to celebrate every special occastion.
+            At the intersection of food science and art, lies Skio Ting&apos;s
+            unique patisserie. Finding notes of flavour and composing with
+            healthy inovative ingredients, this is where Skio Ting enables the
+            local community to celebrate every special occastion.
           </p>
           <Link href="/about">
             <a>
-              <p className={styles.learn__More}>Learn More ></p>
+              <p className={styles.learn__More}>Learn More &gt;</p>
             </a>
           </Link>
         </div>

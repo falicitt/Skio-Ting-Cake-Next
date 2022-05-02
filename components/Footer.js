@@ -1,5 +1,4 @@
 import styles from '../styles/HeaderFooter.module.css'
-import Script from 'next/script'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -7,13 +6,13 @@ export default function Footer() {
     <footer>
       <ul className={styles.Footer}>
         <li>
-          <Link href="/Q&A">Q&A > </Link>
+          <Link href="/Q&A">Q&A &gt; </Link>
         </li>
         <li>
-          <Link href="/contact">CONTACT > </Link>
+          <Link href="/contact">CONTACT &gt; </Link>
         </li>
         <li>
-          <Link href="/about">ABOUT > </Link>
+          <Link href="/about">ABOUT &gt; </Link>
         </li>
       </ul>
 

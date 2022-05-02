@@ -20,7 +20,7 @@ export default function Shipping() {
         <Product_checkout />
         <div className={styles.shipping}>
           <p className={styles.steps}>
-            Cart > <b>Detail</b> > Order
+            Cart &gt; <b>Detail</b> &gt; Order
           </p>
 
           <form

@@ -6,8 +6,8 @@ export default function About() {
       <div className={styles.about__Container}>
         <h3 className={styles.about__Text}>About Skio Ting</h3>
         <p>
-          At the intersection of food science and art, lies Skio Ting’s unique
-          patisserie. Finding notes of flavour and composing with healthy
+          At the intersection of food science and art, lies Skio Ting&apos;s
+          unique patisserie. Finding notes of flavour and composing with healthy
           inovative ingredients, this is where Skio Ting enables the local
           community to celebrate every special occastion.
         </p>
