@@ -1,5 +1,5 @@
 import { fromImageToUrl } from '../utils/urls'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import styles from '../styles/Checkout.module.css'
 
 function Product_checkout() {

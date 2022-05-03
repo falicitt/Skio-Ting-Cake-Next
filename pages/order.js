@@ -20,7 +20,7 @@ export default function Order() {
   return (
     <div className={styles.order}>
       <p className={styles.steps}>
-        Cart > Detail > <b>Order</b>
+        Cart &gt; Detail &gt; <b>Order</b>
       </p>
       <div className={styles.check}>
         <Image
