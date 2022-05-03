@@ -3,7 +3,7 @@
 .Hero {
   padding-top: 5vh;
   padding-bottom: 37vh;
-  background: url(https://ucarecdn.com/9e40c777-7a0b-4feb-8b3b-f0a787a85fe2/);
+  background-image: url("../public/ben-rosett-nYugmV-SY6s-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -120,5 +120,5 @@
   }
 }
 
-
+/*https://ucarecdn.com/9e40c777-7a0b-4feb-8b3b-f0a787a85fe2/*/
 
